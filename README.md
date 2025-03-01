@@ -6,5 +6,6 @@
   <li><b>Run the Flask Application:</b><br> Start the Flask server to run the application locally.</li>
   <li><b>Access the Application:</b><br> Open a browser and navigate to <a href="http://127.0.0.1:5000/" target="_blank">http://127.0.0.1:5000/</a> to control the mouse and keyboard of your laptop.</li>
 </ol>
-![image alt](https://raw.githubusercontent.com/Ishu6129/controller/main/controller.jpg)
+![My Image](https://raw.githubusercontent.com/Ishu6129/Ishu6129/main/controller.jpg)
+
 
