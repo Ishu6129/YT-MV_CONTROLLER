@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a52);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.exit-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #ff0000;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.exit-btn:hover {
+    background: #cc0000; 
+}
+
+.controller-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mouse-buttons button, .btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.mouse-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mouse-buttons button {
+    background: #4CAF50;
+    color: white;
+}
+
+.mouse-buttons button:hover {
+    background: #3d8b40;
+}
+
+.joystick-container {
+    width: 120px;
+    height: 120px;
+    background: #444;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#joystick {
+    width: 90px;
+    height: 90px;
+    background: #666;
+    border-radius: 50%;
+    position: relative;
+}
+
+#joystickInner {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 10px rgba(255, 0, 0, 0.5);
+}
+
+.arrow-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.side-arrows {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background: #1e90ff;
+    color: white;
+}
+
+.btn:hover {
+    background: #166bcc;
+}
+
+.extra-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    gap: 10px;
+    margin-top: 10px; 
+}
+
+.minus-btn {
+    background: #ff9800;
+}
+
+.minus-btn:hover {
+    background: #e68900;
+}
+
+.plus-btn {
+    background: #ffcc00;
+}
+
+.plus-btn:hover {
+    background: #e6b800;
+}

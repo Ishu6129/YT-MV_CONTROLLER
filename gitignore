@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Flask
+instance/
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# Node Modules (if you have any JavaScript dependencies)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db

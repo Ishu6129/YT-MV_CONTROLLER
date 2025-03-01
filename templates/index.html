@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Laptop Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+     <!-- Exit Button at Top Right -->
+     <button class="btn exit-btn" data-key="ctrl+w">Exit</button>
+
+     <!-- Main Controller Section -->
+     <div class="controller-container">
+         
+         <!-- Mouse Buttons -->
+         <div class="mouse-buttons">
+             <button id="leftClick">Left Click</button>
+             <button id="rightClick">Right Click</button>
+         </div>
+ 
+         <!-- Joystick Section -->
+         <div class="joystick-container">
+             <div id="joystick">
+                 <div id="joystickInner"></div>
+             </div>
+         </div>
+ 
+         <!-- Arrow Key Layout -->
+         <div class="arrow-buttons">
+             <button class="btn" data-key="up">↑</button>
+             <div class="side-arrows">
+                 <button class="btn" data-key="left">←</button>
+                 <button class="btn" data-key="down">↓</button>
+                 <button class="btn" data-key="right">→</button>
+             </div>
+         </div>
+ 
+         <!-- Bottom Buttons -->
+         <div class="extra-buttons">
+            <button class="btn minus-btn" data-key="speed-down">-</button>
+            <button class="btn" data-key="space">Space</button>
+            <button class="btn plus-btn" data-key="speed-up">+</button>
+        </div>
+</body>
+</html>
