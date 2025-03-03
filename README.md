@@ -25,7 +25,7 @@ Follow these steps to get started with the YT-MV Controller:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/YT-MV-Controller.git
+git clone https://github.com/Ishu6129/YT-MV_Controller.git
 cd YT-MV-Controller
 ```
 
