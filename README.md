@@ -25,8 +25,8 @@ Follow these steps to get started with the YT-MV Controller:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Ishu6129/YT-MV_Controller.git
-cd YT-MV-Controller
+https://github.com/Ishu6129/YT-MV_CONTROLLER.git
+cd YT-MV_CONTROLLER
 ```
 
 ### 2️⃣ Set Up Python Virtual Environment
